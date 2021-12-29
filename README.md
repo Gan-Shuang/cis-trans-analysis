@@ -1,7 +1,7 @@
 # cis-trans-analysis
-##Usage
+## Usage
 Analyse EGFR cis-trans type from mutation reads
-##Method
+## Method
 Calculate persentage of each EGFR mutation in total deepth
 
 python run_cis-trans.py -h
@@ -14,7 +14,7 @@ optional arguments:
   -o RESULT_FILE, --output RESULT_FILE
                         cis-trans analysis result
                         
-##Test
+## Test
 sh ./test.sh
-##Result
+## Result
 sampleid	geneA	phgvsA	geneB	phgvsB	cis_trans	chgvsA	chgvsB	ratio
