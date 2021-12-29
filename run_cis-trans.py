@@ -234,7 +234,7 @@ if __name__=="__main__":
     sys.stdout.write(sample_name+" result:")
     print(result)
     output=open(output_result,"w")
-    output.write("sampleid"+"\t"+"geneA"+"\t"+"phgvsA"+"\t"+"geneB"+"\t"+"phgvsB"+"\t"+"cis_trans"+"\t"+"chgvsA"+"\t"+"chgvsB"+"\t"+"ratio"+"\n")
+    output.write("sampleid\tgeneA\tphgvsA\tgeneB\tphgvsB\tcis_trans\tchgvsA\tchgvsB\tratio\n")
     for content,position in result.items():
         persentage=str(content).split("|")[3]
         geneA=str(position).split("|")[0].split("-")[0].split(":")[0]
