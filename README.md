@@ -15,7 +15,8 @@ Analyse EGFR cis-trans type from mutation reads
 >>                         cis-trans analysis result  
                         
 ## Test
-> sh ./test.sh OR  
+> sh ./test.sh  
+> OR    
 > python3 run_cis-trans.py -b test_example/test_cis.bam -v test_example/test_cis.vcf -o ./cis_result.txt  
   
   
