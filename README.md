@@ -1,4 +1,4 @@
-# cis-trans-analysis
+# Analyse cis-trans type from genome seqencing
 ## Usage
 Analyse EGFR cis-trans type from mutation reads
 ## Method
