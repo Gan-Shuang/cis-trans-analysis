@@ -1,6 +1,5 @@
-# Analyse cis-trans type from genome seqencing
-## Usage
-Analyse EGFR cis-trans type from mutation reads
+# cis-trans analysis
+Analyse EGFR cis-trans type from mutation reads of genome seqencing
 ## Method
  Calculate persentage of each EGFR mutation in total deepth
 ```
